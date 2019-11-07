@@ -1,0 +1,7 @@
+set FLASK_ENV=development
+set FLASK_CONFIG=development
+set FLASK_APP=run.py
+set ESICALC_ADMIN=nrdevbox@gmail.com
+set MAIL_USERNAME=nrdevbox@gmail.com
+set MAIL_PASSWORD=Bn9*!8eX6U#0tVBR
+set SECRET_KEY=kqDJZpY4Ns5t#yFs#ul2I1av
