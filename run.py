@@ -4,13 +4,18 @@ from app import create_app, db
 from flask_migrate import Migrate
 
 # config
-app = create_app(os.getenv('ESICALC_ADMIN') or 'default')
+from app.models import Ingredient, Effect, Game
+
+app = create_app(os.getenv('FLASK_CONFIG') or 'default')
 migrate = Migrate(app, db)
 
 # shell context
 @app.shell_context_processor
 def make_shell_context():
-    return dict()
+    return dict(db=db,
+                Ingredient=Ingredient,
+                Effect=Effect,
+                Game=Game)
 
 
 @app.cli.command()

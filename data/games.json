@@ -1,0 +1,28 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "The Elder Scrolls V: Skyrim",
+      "short_name": "Skyrim",
+      "is_dlc": 0
+    },
+    {
+      "id": 2,
+      "name": "The Elder Scrolls V: Skyrim – Dawnguard",
+      "short_name": "Dawnguard",
+      "is_dlc": 1
+    },
+    {
+      "id": 3,
+      "name": "The Elder Scrolls V: Skyrim – Hearthfire",
+      "short_name": "Hearthfire",
+      "is_dlc": 1
+    },
+    {
+      "id": 4,
+      "name": "The Elder Scrolls V: Skyrim – Dragonborn",
+      "short_name": "Dragonborn",
+      "is_dlc": 1
+    }
+  ]
+}
